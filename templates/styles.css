@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info {
+    background-color: #f2511b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-content {
+    max-width: 50%;
+    position: relative;
+    top: 20px; /* This moves the text up */
+    left: 60px;
+    
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #f2511b;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.loan-form {
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: -100px; /* Adjust this value to move the form left */
+}
+
+
+.loan-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.loan-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.loan-form button {
+    background-color: #f2511b;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loan-form button:hover {
+    background-color: #e1441a;
+}.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('back.webp'); /* Use the back.webp image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: rgb(255, 255, 255);
+    width: 100vw; /* Full width */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
